@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        佐藤綜一郎のホームページ
+        佐藤綜一郎の<br />ホームページ
       </h1>
       <div class="links">
         <a
