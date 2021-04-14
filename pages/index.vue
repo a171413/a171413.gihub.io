@@ -20,7 +20,7 @@
           rel="noopener noreferrer"
           class="button--grey"
         >
-          GitHub
+          佐藤綜一郎のGitHub
         </a>
       </div>
     </div>
