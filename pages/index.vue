@@ -3,19 +3,19 @@
     <div>
       <Logo />
       <h1 class="title">
-        a171413.github.io
+        佐藤綜一郎のホームページ
       </h1>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="http://cs.u-gakugei.ac.jp/"
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
         >
-          Documentation
+          東京学芸大学宮寺研究室
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/a171413"
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
