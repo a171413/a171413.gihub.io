@@ -12,8 +12,29 @@
       data-toggle="collapse"
       @click.prevent="collapseMenu"
     >
-      
+      <template v-if="addLink">
+        <span class="sidebar-mini-icon">{{ linkPrefix }}</span>
+        <span class="sidebar-normal">
+          {{ link.name }} <b class="caret"></b>
+        </span>
+      </template>
+      <template v-else>
+        <i :class="link.icon"></i>
+        <p>{{ link.name }} <b class="caret"></b></p>
+      </template>
     </a>
+
+    <collapse-transition>
+      <div
+        v-if="$slots.default || this.isMenu"
+        v-show="!collapsed"
+        class="collapse show"
+      >
+        <ul class="nav">
+          <slot></slot>
+        </ul>
+      </div>
+    </collapse-transition>
 
     <slot
       name="title"
@@ -21,13 +42,14 @@
     >
       <component
         :to="link.path"
-        @click.native="linkClick"
+        @click="linkClick"
         :is="elementType(link, false)"
         :class="{ active: link.active }"
         :target="link.target"
         :href="link.path"
       >
         <template v-if="addLink">
+          <span class="sidebar-mini-icon">{{ linkPrefix }}</span>
           <span class="sidebar-normal">{{ link.name }}</span>
         </template>
         <template v-else>

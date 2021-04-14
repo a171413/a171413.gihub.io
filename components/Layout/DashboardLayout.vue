@@ -1,6 +1,7 @@
 <template>
   <div class="wrapper" :class="{ 'nav-open': $sidebar.showSidebar }">
     <notifications></notifications>
+    <sidebar-fixed-toggle-button />
     <side-bar
       :background-color="sidebarBackground"
       :short-title="$t('sidebar.shortTitle')"
@@ -219,12 +220,14 @@ function initScrollbar(className) {
 import DashboardNavbar from './DashboardNavbar.vue';
 import ContentFooter from './ContentFooter.vue';
 import DashboardContent from './Content.vue';
+import SidebarFixedToggleButton from './SidebarFixedToggleButton.vue';
 import { SlideYDownTransition, ZoomCenterTransition } from 'vue2-transitions';
 
 export default {
   components: {
     DashboardNavbar,
     ContentFooter,
+    SidebarFixedToggleButton,
     DashboardContent,
     SlideYDownTransition,
     ZoomCenterTransition,

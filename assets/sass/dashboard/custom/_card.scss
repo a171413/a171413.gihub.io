@@ -70,6 +70,9 @@
       .card-title{
         color: $black;
       }
+      .card-category, .stats{
+        color: $card-stats-gray;
+      }
 
       //style for inputs
 

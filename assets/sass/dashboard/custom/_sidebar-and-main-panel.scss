@@ -71,6 +71,22 @@
                 color: $opacity-8;
               }
 
+              .sidebar-mini-icon{
+                text-transform: uppercase;
+                width: 34px;
+                margin-right: 10px;
+                margin-left: 0px;
+                font-size: 12px;
+                text-align: center;
+                line-height: 25px;
+                position: relative;
+                float: left;
+                z-index: 1;
+                display: inherit;
+                line-height: 24px;
+                color: $opacity-8;
+              }
+
               i{
                 font-size: 17px;
                 line-height: 20px;
@@ -79,6 +95,28 @@
             }
         }
 
+
+
+        [data-toggle="collapse"] ~ div > ul > li:hover > a{
+          .sidebar-mini-icon, .sidebar-normal{
+            color: $white;
+          }
+
+        }
+
+        .nav [data-toggle="collapse"] ~ div > ul > li > a .sidebar-mini-icon{
+          opacity: 0;
+        }
+
+
+    }
+
+    .navbar-minimize{
+      position: absolute;
+      right: 20px;
+      top: 2px;
+      opacity: 1;
+      @extend .animation-transition-general;
 
     }
     .logo-tim{
@@ -178,6 +216,10 @@
               & + div .nav .active a{
 
                 box-shadow: none;
+                .sidebar-mini-icon, .sidebar-normal{
+                  color: $white;
+                  font-weight: $font-weight-normal;
+                }
 
                 &:before{
                   content: " ";
@@ -264,15 +306,13 @@
             opacity: 1;
             float: left;
             width: 38px;
-            height: 38px;
             min-width: 38px;
             text-align: center;
-            padding: 0;
             margin-left: 12px;
             margin-right: 12px;
-            border-radius: 50%;
-            background-color: rgba($white,0.9);
             img {
+              border-radius: 50%;
+              background-color: rgba($white,0.9);
               padding: 5px;
             }
         }
@@ -344,6 +384,18 @@
         border-bottom-color: $success;
       }
     }
+    &[data="orange"]{
+      @include linear-gradient($warning-states, $warning);
+      &:before{
+        border-bottom-color: $warning;
+      }
+    }
+    &[data="red"]{
+      @include linear-gradient($danger-states, $danger);
+      &:before{
+        border-bottom-color: $danger;
+      }
+    }
 
     &[data="vue"] {
       @include linear-gradient($vue-states, $vue);
@@ -413,12 +465,27 @@
             }
         }
     }
+
+    &:before{
+      content: "";
+      position: absolute;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 5px solid $primary;
+      top: -5px;
+      left: 40px;
+      transform: translate(-50%);
+    }
 }
 
 
 .visible-on-sidebar-regular{
     display: inline-block !important;
 }
+.visible-on-sidebar-mini{
+    display: none !important;
+}
+
 .off-canvas-sidebar{
     .nav {
         > li > a,
@@ -450,6 +517,15 @@
     &[data="green"]{
       border-top: 2px solid $success;
     }
+
+    &[data="orange"]{
+      border-top: 2px solid $warning;
+    }
+
+    &[data="red"]{
+      border-top: 2px solid $danger;
+    }
+
     &[data="primary"]{
       border-top: 2px solid $primary;
     }
@@ -540,6 +616,11 @@
       }
   }
 
+  .minimize-sidebar{
+      display: none;
+  }
+
+
   .nav-open{
       .main-panel{
           right: 0;
@@ -625,12 +706,107 @@
        transition-timing-function: linear,linear,ease;
       -webkit-overflow-scrolling: touch;
     }
-    
-    .sidebar .nav>li.active-pro {
-      position: absolute;
-      width: 100%;
-      bottom: 10px;
+
+
+    .sidebar-mini{
+        .visible-on-sidebar-regular{
+          display: none !important;
+        }
+        .visible-on-sidebar-mini{
+          display: inline-block !important;
+        }
+
+        .sidebar{
+          width: 80px;
+
+          .sidebar-wrapper{
+            width: 100% !important;
+          }
+        }
+
+
+        .sidebar{
+          display: block;
+          z-index: 1030;
+          box-shadow: $sidebar-box-shadow;
+
+          .logo{
+              a.logo-normal{
+                  opacity: 0;
+                  @include transform-translate-x(-25px);
+              }
+          }
+
+          .sidebar-wrapper{
+            > .nav [data-toggle="collapse"] ~ div > ul > li > a .sidebar-normal,
+            .user .info [data-toggle="collapse"] ~ div > ul > li > a .sidebar-normal,
+            .user .info > a > span,
+            > .nav li > a p{
+                @include transform-translate-x(-25px);
+                opacity: 0;
+            }
+          }
+
+          .nav [data-toggle="collapse"] ~ div > ul > li > a .sidebar-mini-icon{
+            opacity: 1;
+          }
+        }
+
+        .sidebar:hover {
+          width: $sidebar-width;
+
+          .logo {
+            a.logo-normal {
+                opacity: 1;
+                @include transform-translate-x(0);
+            }
+
+          }
+
+          .navbar-minimize{
+            opacity: 1;
+          }
+          .sidebar-wrapper{
+            width: $sidebar-width;
+
+            > .nav li > a p,
+            > .nav [data-toggle="collapse"] ~ div > ul > li > a .sidebar-normal,
+            .user .info [data-toggle="collapse"] ~ div > ul > li > a .sidebar-normal,
+            .user .info > a > span{
+              @include transform-translate-x(0px);
+              opacity: 1;
+            }
+          }
+
+          .nav [data-toggle="collapse"] ~ div > ul > li > a .sidebar-mini-icon{
+            opacity: 0;
+          }
+
+
+
+        }
+
+        .main-panel{
+          > .content{
+            padding-left: 130px;
+          }
+        }
+
+        footer{
+          padding-left: 130px;
+        }
+  }
+
+  .navbar-minimize{
+    button {
+      margin-left: 10px;
+      i{
+      color: $white;
+      font-size: 20px;
+      }
     }
+  }
+
 }
 
 @include media-breakpoint-down(sm){
@@ -734,5 +910,23 @@
 
   .main-panel .content {
     padding-left: 30px !important;
+  }
+
+  .sidebar-mini .sidebar .logo a.logo-normal{
+    opacity: 1;
+    transform: translate3d(0px,0,0);
+  }
+
+  .sidebar-mini .sidebar .sidebar-wrapper>.nav li>a p{
+    opacity: 1;
+  }
+
+  .sidebar-mini .sidebar .sidebar-wrapper .nav li a p{
+    opacity: 1 !important;
+    transform: translate3d(0px,0,0);
+  }
+
+  .minimize-sidebar {
+      display: none;
   }
 }

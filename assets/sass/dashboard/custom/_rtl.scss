@@ -36,6 +36,12 @@
         }
     }
 
+    .sidebar-wrapper .nav [data-toggle="collapse"] ~ div > ul > li > a .sidebar-mini-icon,
+    .sidebar-wrapper .user .info [data-toggle="collapse"] ~ div > ul > li > a .sidebar-mini-icon{
+      float: right;
+      margin-left: 15px;
+      margin-right: 0;
+    }
 
     .sidebar-wrapper > .nav [data-toggle="collapse"] ~ div > ul > li > a .sidebar-normal,
     .sidebar-wrapper .user .info [data-toggle="collapse"] ~ div > ul > li > a .sidebar-normal{
@@ -48,16 +54,6 @@
     }
   }
 
-  .navbar{
-    .navbar-brand{
-      margin-right: 0px;
-    }
-    .dropdown-menu{
-      right: auto;
-      left: 0;
-    }
-  }
-
   .main-panel{
     position: fixed;
     height: 100%;
@@ -66,7 +62,7 @@
   }
 
   .main-panel .content{
-    padding: 80px 280px 30px 30px;
+    padding: 110px 300px 20px 50px
   }
 
   .dropdown-toggle:after{
@@ -92,6 +88,11 @@
   .dropdown-menu{
     right: auto;
     left: 0;
+  }
+
+  .card-timeline .timeline .timeline-footer .btn{
+    margin-left: 0;
+    margin-right: auto;
   }
 
   .navbar-minimize-fixed{
@@ -148,6 +149,20 @@
     left: 0;
   }
 
+  .card.card-timeline {
+    .timeline .timeline-footer{
+      .btn.dropdown-toggle {
+        i {
+          left: 0 !important;
+        }
+
+        &:after {
+          margin-left: 5px !important;
+        }
+      }
+    }
+  }
+
   .fixed-plugin .dropdown-menu{
     right: 80px;
   }
@@ -157,13 +172,22 @@
 
 @include media-breakpoint-up(xl) {
   .rtl{
+    &.sidebar-mini .main-panel .content {
+      padding-right: 130px;
+      padding-left: 50px;
+    }
+
+    &.sidebar-mini footer {
+      padding-right: 130px;
+      padding-left: 50px;
+    }
 
     .navbar-minimize button {
       margin-right: -5px;
     }
 
     .footer {
-      padding: 24px 300px 24px 30px;
+      padding: 24px 300px 24px 0;
     }
   }
 }

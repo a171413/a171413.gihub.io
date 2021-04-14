@@ -6,6 +6,7 @@
     :transparent="true"
   >
     <div slot="brand" class="navbar-wrapper">
+      <div class="navbar-minimize d-inline"><sidebar-toggle-button /></div>
       <div
         class="navbar-toggle d-inline"
         :class="{ toggled: $sidebar.showSidebar }"
@@ -83,9 +84,11 @@
 <script>
 import { CollapseTransition } from 'vue2-transitions';
 import { BaseNav, Modal } from '@/components';
+import SidebarToggleButton from '../SidebarToggleButton';
 
 export default {
   components: {
+    SidebarToggleButton,
     CollapseTransition,
     BaseNav,
     Modal

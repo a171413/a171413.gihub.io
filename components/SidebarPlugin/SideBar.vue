@@ -17,6 +17,12 @@
             :key="link.name + index"
             :link="link"
           >
+            <sidebar-item
+              v-for="(subLink, index) in link.children"
+              :key="subLink.name + index"
+              :link="subLink"
+            >
+            </sidebar-item>
           </sidebar-item>
         </slot>
       </ul>
@@ -51,6 +57,8 @@ export default {
           'vue',
           'blue',
           'green',
+          'orange',
+          'red',
           'primary'
         ];
         return acceptedValues.indexOf(value) !== -1;
@@ -75,6 +83,13 @@ export default {
     return {
       autoClose: this.autoClose
     };
+  },
+  methods: {
+    minimizeSidebar() {
+      if (this.$sidebar) {
+        this.$sidebar.toggleMinimize();
+      }
+    }
   },
   beforeDestroy() {
     if (this.$sidebar.showSidebar) {

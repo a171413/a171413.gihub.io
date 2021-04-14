@@ -1,6 +1,7 @@
 <template>
   <div class="wrapper" :class="{ 'nav-open': $sidebar.showSidebar }">
     <notifications></notifications>
+    <sidebar-fixed-toggle-button />
     <side-bar
       :background-color="sidebarBackground"
       short-title="CT"
@@ -57,12 +58,14 @@
   import DashboardNavbar from '@/components/Layout/starter/SampleNavbar.vue';
   import ContentFooter from '@/components/Layout/starter/SampleFooter.vue';
   import DashboardContent from '@/components/Layout/Content.vue';
+  import SidebarFixedToggleButton from '@/components/Layout/SidebarFixedToggleButton.vue';
   import { SlideYDownTransition, ZoomCenterTransition } from 'vue2-transitions';
 
   export default {
     components: {
       DashboardNavbar,
       ContentFooter,
+      SidebarFixedToggleButton,
       DashboardContent,
       SlideYDownTransition,
       ZoomCenterTransition

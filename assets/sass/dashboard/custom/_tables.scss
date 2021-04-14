@@ -83,6 +83,20 @@
       font-weight: 300;
     }
 
+    .card-tasks .card-body &{
+        margin-bottom: 0;
+
+        > thead > tr > th,
+        > tbody > tr > th,
+        > tfoot > tr > th,
+        > thead > tr > td,
+        > tbody > tr > td,
+        > tfoot > tr > td{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+
    > thead > tr > th{
        border-bottom-width: 1px;
        font-size: 12px;
@@ -122,6 +136,10 @@
        vertical-align: middle;
    }
 
+   &.table-shopping tbody tr:last-child td{
+      border: none;
+   }
+
    .th-description{
        max-width: 150px;
    }
@@ -153,6 +171,58 @@
       text-transform: uppercase;
     }
 
+}
+
+.table-shopping{
+    > thead > tr > th{
+        text-transform: uppercase;
+    }
+    > tbody > tr > td{
+        font-size: $font-paragraph;
+
+        b{
+            display: block;
+            margin-bottom: 5px;
+        }
+    }
+    .td-name{
+        font-weight: $font-weight-normal;
+        font-size: 1.5em;
+        small{
+            color: $dark-gray;
+            font-size: 0.75em;
+            font-weight: $font-weight-light;
+        }
+    }
+    .td-number{
+       font-weight: $font-weight-light;
+
+       .btn-group {
+         padding-right: 15px;
+       }
+   }
+    .td-name{
+        min-width: 200px;
+    }
+    .td-number{
+        text-align: right;
+        min-width: 170px;
+
+        small{
+            margin-right: 3px;
+        }
+    }
+
+    .img-container{
+        width: 120px;
+        max-height: 160px;
+        overflow: hidden;
+        display: block;
+
+        img{
+            width: 100%;
+        }
+    }
 }
 
 .table-responsive{

@@ -20,19 +20,25 @@ export default {
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'}
     ]
   },
+  router: {
+    linkExactActiveClass: 'active'
+  },
 
+  loading: { color: '#fff' },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     'element-ui/lib/theme-chalk/index.css',
     'assets/css/demo.css',
     'assets/css/nucleo-icons.css',
-    'assets/sass/black-dashboard.scss'
+    'assets/sass/black-dashboard-pro.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~plugins/element-ui', ssr: false },
-    { src: '~/plugins/dashboard-plugin.js', ssr: false }
+    { src: '~/plugins/dashboard-plugin.js', ssr: false },
+    { src: '~/plugins/full-calendar.js', ssr: false },
+    { src: '~/plugins/world-map.js', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

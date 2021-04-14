@@ -24,6 +24,15 @@
 
         <li class="header-title">Sidebar Mini</li>
         <li class="adjustments-line">
+          <div class="togglebutton switch-sidebar-mini">
+            <span class="label-switch">OFF</span>
+            <base-switch
+              v-model="sidebarMini"
+              @input="minimizeSidebar"
+            ></base-switch>
+            <span class="label-switch label-right">ON</span>
+          </div>
+
           <div class="togglebutton switch-change-color mt-3">
             <span class="label-switch">LIGHT MODE</span>
             <base-switch v-model="darkMode" @input="toggleMode"></base-switch>
@@ -33,7 +42,7 @@
 
         <li class="button-container mt-4">
           <a
-            href="https://www.creative-tim.com/learning-lab/nuxt/overview/black-dashboard"
+            href="https://demos.creative-tim.com/nuxt-black-dashboard-pro/documentation"
             target="_blank"
             rel="noopener"
             class="btn btn-default btn-block btn-round"
@@ -41,20 +50,20 @@
             Documentation
           </a>
           <a
-            href="https://creative-tim.com/product/nuxt-black-dashboard"
+            href="https://creative-tim.com/product/nuxt-black-dashboard-pro"
             target="_blank"
             rel="noopener"
             class="btn btn-primary btn-block btn-round"
           >
-            Download Now
+            Buy for $79
           </a>
           <a
-            href="https://creative-tim.com/product/nuxt-black-dashboard-pro"
+            href="https://demos.creative-tim.com/vue-black-dashboard"
             target="_blank"
             rel="noopener"
             class="btn btn-info btn-block btn-round"
           >
-            Upgrade to PRO
+            Free Version
           </a>
         </li>
       </ul>
@@ -81,7 +90,9 @@
           { color: 'primary', active: false, value: 'primary' },
           { color: 'vue', active: true, value: 'vue' },
           { color: 'info', active: false, value: 'blue' },
-          { color: 'success', active: false, value: 'green' }
+          { color: 'success', active: false, value: 'green' },
+          { color: 'warning', active: false, value: 'orange' },
+          { color: 'danger', active: false, value: 'red' }
         ]
       };
     },

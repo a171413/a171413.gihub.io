@@ -25,7 +25,7 @@
       </ul>
       <div class="copyright">
         &copy; {{ year }}, made with <i class="tim-icons icon-heart-2"></i> by
-        
+        <a href="https://binarcode.com" rel="noopener" target="_blank">BinarCode</a> and
         <a
           href="https://www.creative-tim.com/?ref=pdf-vuejs"
           target="_blank"

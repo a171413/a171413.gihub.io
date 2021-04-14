@@ -1,11 +1,11 @@
 /*!
 
  =========================================================
- * Nuxt Black Dashboard - v1.0.0
+ * Nuxt Black Dashboard PRO - v1.0.0
  =========================================================
 
  * Product Page: https://www.creative-tim.com/product/nuxt-black-dashboard-pro
- * Copyright 2020 Creative Tim (https://www.creative-tim.com)
+ * Copyright 2019 Creative Tim (https://www.creative-tim.com)
 
  * Coded by Creative Tim
 
@@ -17,21 +17,24 @@
 import Vue from 'vue'
 import './extra/polyfills';
 // Notifications plugin. Used on Notifications page
-import Notifications from '@/components/NotificationPlugin'
+import Notifications from '@/components/NotificationPlugin';
+// Validation plugin used to validate forms
+import VeeValidate from 'vee-validate';
 // A plugin file where you could register global components used across the app
-import './globalComponents'
+import './globalComponents';
 // A plugin file where you could register global directives
-import './globalDirectives'
+import './globalDirectives';
 // Sidebar on the right. Used as a local plugin in DashboardLayout.vue
-import SideBar from '@/components/SidebarPlugin'
+import SideBar from '@/components/SidebarPlugin';
 // RTL (right to left plugin to support rtl layout). If you don't need support for rtl, remove this plugin
-import RTLPlugin from './RTLPlugin'
+import RTLPlugin from './RTLPlugin';
 
 // element ui language configuration
-import lang from 'element-ui/lib/locale/lang/en'
-import locale from 'element-ui/lib/locale'
-locale.use(lang)
+import lang from 'element-ui/lib/locale/lang/en';
+import locale from 'element-ui/lib/locale';
+locale.use(lang);
 
-Vue.use(RTLPlugin)
-Vue.use(SideBar)
-Vue.use(Notifications)
+Vue.use(RTLPlugin);
+Vue.use(SideBar);
+Vue.use(Notifications);
+Vue.use(VeeValidate, { fieldsBagName: 'veeFields' });
