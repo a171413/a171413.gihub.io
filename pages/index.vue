@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
+<!--      <Logo />-->
       <h1 class="title">
-        佐藤綜一郎の<br />ホームページ
+        佐藤綜一郎の<br>ホームページ
       </h1>
       <div class="links">
         <a

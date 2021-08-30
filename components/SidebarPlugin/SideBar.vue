@@ -2,11 +2,12 @@
   <div class="sidebar" :data="backgroundColor">
     <div class="sidebar-wrapper" ref="sidebarScrollArea">
       <div class="logo">
-        <a href="http://www.creative-tim.com" class="simple-text logo-mini">
+        <a href="http://cs.u-gakugei.ac.jp/" class="simple-text logo-mini">
           <img :src="logo" alt="app-logo" />
         </a>
-        <a href="http://www.creative-tim.com" class="simple-text logo-normal">
+        <a href="http://cs.u-gakugei.ac.jp/" class="simple-text logo-normal">
           {{ title }}
+<!--          Miyadera Labo-->
         </a>
       </div>
       <slot></slot>
@@ -35,17 +36,17 @@ export default {
   props: {
     title: {
       type: String,
-      default: 'Creative Tim',
+      default: 'MIYALAB',
       description: 'Sidebar title'
     },
     shortTitle: {
       type: String,
-      default: 'CT',
+      default: 'ML',
       description: 'Sidebar short title'
     },
     logo: {
       type: String,
-      default: 'http://demos.creative-tim.com/nuxt-black-dashboard-pro/img/icon-nuxt.svg',
+      default: '/img/my-photo.png',
       description: 'Sidebar app logo'
     },
     backgroundColor: {
@@ -74,7 +75,7 @@ export default {
     },
     autoClose: {
       type: Boolean,
-      default: true,
+      default: false,
       description:
         'Whether sidebar should autoclose on mobile when clicking an item'
     }

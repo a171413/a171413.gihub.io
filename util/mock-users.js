@@ -399,4 +399,4 @@ export default [
     salary: '€ 36980.00',
     age: 38
   }
-];
+]

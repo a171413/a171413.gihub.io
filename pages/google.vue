@@ -2,21 +2,31 @@
   <div class="row">
     <div class="col-md-12">
       <card type="plain">
-        <h4 slot="header" class="card-title">Google Maps</h4>
-        <div id="regularMap" class="map"></div>
+        <h4 slot="header" class="card-title">
+          Google Maps
+        </h4>
+        <div id="regularMap" class="map" />
       </card>
     </div>
   </div>
 </template>
 <script>
-import config from '@/nuxt.config';
+import config from '@/nuxt.config'
 
 export default {
-  name: 'google',
+  name: 'Google',
+  async mounted () {
+    let GoogleMapsLoader = await import('google-maps')
+    GoogleMapsLoader = GoogleMapsLoader.default
+    GoogleMapsLoader.KEY = config.MAPS_API_KEY
+    GoogleMapsLoader.load((google) => {
+      this.initRegularMap(google)
+    })
+  },
   methods: {
-    initRegularMap() {
+    initRegularMap () {
       // Regular Map
-      const myLatlng = new window.google.maps.LatLng(40.748817, -73.985428);
+      const myLatlng = new window.google.maps.LatLng(40.748817, -73.985428)
       const mapOptions = {
         zoom: 8,
         center: myLatlng,
@@ -263,30 +273,22 @@ export default {
             ]
           }
         ]
-      };
+      }
 
       const map = new window.google.maps.Map(
         document.getElementById('regularMap'),
         mapOptions
-      );
+      )
 
       const marker = new window.google.maps.Marker({
         position: myLatlng,
         title: 'Regular Map!'
-      });
+      })
 
-      marker.setMap(map);
+      marker.setMap(map)
     }
-  },
-  async mounted() {
-    let GoogleMapsLoader = await import('google-maps')
-    GoogleMapsLoader = GoogleMapsLoader.default
-    GoogleMapsLoader.KEY = config.MAPS_API_KEY;
-    GoogleMapsLoader.load(google => {
-      this.initRegularMap(google);
-    });
   }
-};
+}
 </script>
 <style lang="scss">
 .card-map {

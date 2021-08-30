@@ -4,8 +4,8 @@
     <sidebar-fixed-toggle-button />
     <side-bar
       :background-color="sidebarBackground"
-      short-title="CT"
-      title="Creative Tim"
+      short-title="ML"
+      title="Miyadera Labo"
     >
       <template slot-scope="props" slot="links">
         <sidebar-item

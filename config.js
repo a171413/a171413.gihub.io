@@ -14,4 +14,4 @@ export default {
     purpleGradient: ['rgba(253,93,147,0.8)', 'rgba(253,93,147,0)']
   },
   MAPS_API_KEY: 'YOUR_GOOGLE_MAPS_API_KEY'
-};
+}

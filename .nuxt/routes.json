@@ -1,0 +1,470 @@
+[
+  {
+    "name": "index___ar",
+    "path": "/ar",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/index.vue",
+    "chunkName": "pages/index"
+  },
+  {
+    "name": "calendar___en",
+    "path": "/calendar",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/calendar.vue",
+    "chunkName": "pages/calendar"
+  },
+  {
+    "name": "charts___en",
+    "path": "/charts",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/charts.vue",
+    "chunkName": "pages/charts"
+  },
+  {
+    "name": "google___en",
+    "path": "/google",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/google.vue",
+    "chunkName": "pages/google"
+  },
+  {
+    "name": "icons___en",
+    "path": "/icons",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/icons.vue",
+    "chunkName": "pages/icons"
+  },
+  {
+    "name": "introduce___en",
+    "path": "/introduce",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/introduce.vue",
+    "chunkName": "pages/introduce"
+  },
+  {
+    "name": "lock___en",
+    "path": "/lock",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/lock.vue",
+    "chunkName": "pages/lock"
+  },
+  {
+    "name": "login___en",
+    "path": "/login",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "notifications___en",
+    "path": "/notifications",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/notifications.vue",
+    "chunkName": "pages/notifications"
+  },
+  {
+    "name": "pricing___en",
+    "path": "/pricing",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/pricing.vue",
+    "chunkName": "pages/pricing"
+  },
+  {
+    "name": "register___en",
+    "path": "/register",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/register.vue",
+    "chunkName": "pages/register"
+  },
+  {
+    "name": "regular___en",
+    "path": "/regular",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/regular.vue",
+    "chunkName": "pages/regular"
+  },
+  {
+    "name": "rtl___en",
+    "path": "/rtl",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/rtl.vue",
+    "chunkName": "pages/rtl"
+  },
+  {
+    "name": "starter-page___en",
+    "path": "/starter-page",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/starter-page.vue",
+    "chunkName": "pages/starter-page"
+  },
+  {
+    "name": "test___en",
+    "path": "/test",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/test/index.vue",
+    "chunkName": "pages/test/index"
+  },
+  {
+    "name": "typography___en",
+    "path": "/typography",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/typography.vue",
+    "chunkName": "pages/typography"
+  },
+  {
+    "name": "user___en",
+    "path": "/user",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/user.vue",
+    "chunkName": "pages/user"
+  },
+  {
+    "name": "widgets___en",
+    "path": "/widgets",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/widgets.vue",
+    "chunkName": "pages/widgets"
+  },
+  {
+    "name": "calendar___ar",
+    "path": "/ar/calendar",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/calendar.vue",
+    "chunkName": "pages/calendar"
+  },
+  {
+    "name": "charts___ar",
+    "path": "/ar/charts",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/charts.vue",
+    "chunkName": "pages/charts"
+  },
+  {
+    "name": "google___ar",
+    "path": "/ar/google",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/google.vue",
+    "chunkName": "pages/google"
+  },
+  {
+    "name": "icons___ar",
+    "path": "/ar/icons",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/icons.vue",
+    "chunkName": "pages/icons"
+  },
+  {
+    "name": "introduce___ar",
+    "path": "/ar/introduce",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/introduce.vue",
+    "chunkName": "pages/introduce"
+  },
+  {
+    "name": "lock___ar",
+    "path": "/ar/lock",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/lock.vue",
+    "chunkName": "pages/lock"
+  },
+  {
+    "name": "login___ar",
+    "path": "/ar/login",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "notifications___ar",
+    "path": "/ar/notifications",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/notifications.vue",
+    "chunkName": "pages/notifications"
+  },
+  {
+    "name": "pricing___ar",
+    "path": "/ar/pricing",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/pricing.vue",
+    "chunkName": "pages/pricing"
+  },
+  {
+    "name": "register___ar",
+    "path": "/ar/register",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/register.vue",
+    "chunkName": "pages/register"
+  },
+  {
+    "name": "regular___ar",
+    "path": "/ar/regular",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/regular.vue",
+    "chunkName": "pages/regular"
+  },
+  {
+    "name": "rtl___ar",
+    "path": "/ar/rtl",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/rtl.vue",
+    "chunkName": "pages/rtl"
+  },
+  {
+    "name": "starter-page___ar",
+    "path": "/ar/starter-page",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/starter-page.vue",
+    "chunkName": "pages/starter-page"
+  },
+  {
+    "name": "test___ar",
+    "path": "/ar/test",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/test/index.vue",
+    "chunkName": "pages/test/index"
+  },
+  {
+    "name": "typography___ar",
+    "path": "/ar/typography",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/typography.vue",
+    "chunkName": "pages/typography"
+  },
+  {
+    "name": "user___ar",
+    "path": "/ar/user",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/user.vue",
+    "chunkName": "pages/user"
+  },
+  {
+    "name": "widgets___ar",
+    "path": "/ar/widgets",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/widgets.vue",
+    "chunkName": "pages/widgets"
+  },
+  {
+    "name": "components-buttons___en",
+    "path": "/components/buttons",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/components/buttons.vue",
+    "chunkName": "pages/components/buttons"
+  },
+  {
+    "name": "components-grid-system___en",
+    "path": "/components/grid-system",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/components/grid-system.vue",
+    "chunkName": "pages/components/grid-system"
+  },
+  {
+    "name": "components-icons___en",
+    "path": "/components/icons",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/components/icons.vue",
+    "chunkName": "pages/components/icons"
+  },
+  {
+    "name": "components-notifications___en",
+    "path": "/components/notifications",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/components/notifications.vue",
+    "chunkName": "pages/components/notifications"
+  },
+  {
+    "name": "components-panels___en",
+    "path": "/components/panels",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/components/panels.vue",
+    "chunkName": "pages/components/panels"
+  },
+  {
+    "name": "components-sweet-alert___en",
+    "path": "/components/sweet-alert",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/components/sweet-alert.vue",
+    "chunkName": "pages/components/sweet-alert"
+  },
+  {
+    "name": "components-typography___en",
+    "path": "/components/typography",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/components/typography.vue",
+    "chunkName": "pages/components/typography"
+  },
+  {
+    "name": "forms-extended___en",
+    "path": "/forms/extended",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/forms/extended.vue",
+    "chunkName": "pages/forms/extended"
+  },
+  {
+    "name": "forms-regular___en",
+    "path": "/forms/regular",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/forms/regular.vue",
+    "chunkName": "pages/forms/regular"
+  },
+  {
+    "name": "forms-validation___en",
+    "path": "/forms/validation",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/forms/validation.vue",
+    "chunkName": "pages/forms/validation"
+  },
+  {
+    "name": "forms-wizard___en",
+    "path": "/forms/wizard",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/forms/wizard.vue",
+    "chunkName": "pages/forms/wizard"
+  },
+  {
+    "name": "GeneralViews-NotFoundPage___en",
+    "path": "/GeneralViews/NotFoundPage",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/GeneralViews/NotFoundPage.vue",
+    "chunkName": "pages/GeneralViews/NotFoundPage"
+  },
+  {
+    "name": "maps-full-screen___en",
+    "path": "/maps/full-screen",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/maps/full-screen.vue",
+    "chunkName": "pages/maps/full-screen"
+  },
+  {
+    "name": "maps-google___en",
+    "path": "/maps/google",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/maps/google.vue",
+    "chunkName": "pages/maps/google"
+  },
+  {
+    "name": "maps-vector-map___en",
+    "path": "/maps/vector-map",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/maps/vector-map.vue",
+    "chunkName": "pages/maps/vector-map"
+  },
+  {
+    "name": "pages-rtl___en",
+    "path": "/pages/rtl",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/pages/rtl.vue",
+    "chunkName": "pages/pages/rtl"
+  },
+  {
+    "name": "pages-timeline___en",
+    "path": "/pages/timeline",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/pages/timeline.vue",
+    "chunkName": "pages/pages/timeline"
+  },
+  {
+    "name": "pages-user___en",
+    "path": "/pages/user",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/pages/user.vue",
+    "chunkName": "pages/pages/user"
+  },
+  {
+    "name": "table-list-extended___en",
+    "path": "/table-list/extended",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/table-list/extended.vue",
+    "chunkName": "pages/table-list/extended"
+  },
+  {
+    "name": "table-list-paginated___en",
+    "path": "/table-list/paginated",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/table-list/paginated.vue",
+    "chunkName": "pages/table-list/paginated"
+  },
+  {
+    "name": "table-list-regular___en",
+    "path": "/table-list/regular",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/table-list/regular.vue",
+    "chunkName": "pages/table-list/regular"
+  },
+  {
+    "name": "components-buttons___ar",
+    "path": "/ar/components/buttons",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/components/buttons.vue",
+    "chunkName": "pages/components/buttons"
+  },
+  {
+    "name": "components-grid-system___ar",
+    "path": "/ar/components/grid-system",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/components/grid-system.vue",
+    "chunkName": "pages/components/grid-system"
+  },
+  {
+    "name": "components-icons___ar",
+    "path": "/ar/components/icons",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/components/icons.vue",
+    "chunkName": "pages/components/icons"
+  },
+  {
+    "name": "components-notifications___ar",
+    "path": "/ar/components/notifications",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/components/notifications.vue",
+    "chunkName": "pages/components/notifications"
+  },
+  {
+    "name": "components-panels___ar",
+    "path": "/ar/components/panels",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/components/panels.vue",
+    "chunkName": "pages/components/panels"
+  },
+  {
+    "name": "components-sweet-alert___ar",
+    "path": "/ar/components/sweet-alert",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/components/sweet-alert.vue",
+    "chunkName": "pages/components/sweet-alert"
+  },
+  {
+    "name": "components-typography___ar",
+    "path": "/ar/components/typography",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/components/typography.vue",
+    "chunkName": "pages/components/typography"
+  },
+  {
+    "name": "forms-extended___ar",
+    "path": "/ar/forms/extended",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/forms/extended.vue",
+    "chunkName": "pages/forms/extended"
+  },
+  {
+    "name": "forms-regular___ar",
+    "path": "/ar/forms/regular",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/forms/regular.vue",
+    "chunkName": "pages/forms/regular"
+  },
+  {
+    "name": "forms-validation___ar",
+    "path": "/ar/forms/validation",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/forms/validation.vue",
+    "chunkName": "pages/forms/validation"
+  },
+  {
+    "name": "forms-wizard___ar",
+    "path": "/ar/forms/wizard",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/forms/wizard.vue",
+    "chunkName": "pages/forms/wizard"
+  },
+  {
+    "name": "GeneralViews-NotFoundPage___ar",
+    "path": "/ar/GeneralViews/NotFoundPage",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/GeneralViews/NotFoundPage.vue",
+    "chunkName": "pages/GeneralViews/NotFoundPage"
+  },
+  {
+    "name": "maps-full-screen___ar",
+    "path": "/ar/maps/full-screen",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/maps/full-screen.vue",
+    "chunkName": "pages/maps/full-screen"
+  },
+  {
+    "name": "maps-google___ar",
+    "path": "/ar/maps/google",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/maps/google.vue",
+    "chunkName": "pages/maps/google"
+  },
+  {
+    "name": "maps-vector-map___ar",
+    "path": "/ar/maps/vector-map",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/maps/vector-map.vue",
+    "chunkName": "pages/maps/vector-map"
+  },
+  {
+    "name": "pages-rtl___ar",
+    "path": "/ar/pages/rtl",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/pages/rtl.vue",
+    "chunkName": "pages/pages/rtl"
+  },
+  {
+    "name": "pages-timeline___ar",
+    "path": "/ar/pages/timeline",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/pages/timeline.vue",
+    "chunkName": "pages/pages/timeline"
+  },
+  {
+    "name": "pages-user___ar",
+    "path": "/ar/pages/user",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/pages/user.vue",
+    "chunkName": "pages/pages/user"
+  },
+  {
+    "name": "table-list-extended___ar",
+    "path": "/ar/table-list/extended",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/table-list/extended.vue",
+    "chunkName": "pages/table-list/extended"
+  },
+  {
+    "name": "table-list-paginated___ar",
+    "path": "/ar/table-list/paginated",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/table-list/paginated.vue",
+    "chunkName": "pages/table-list/paginated"
+  },
+  {
+    "name": "table-list-regular___ar",
+    "path": "/ar/table-list/regular",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/table-list/regular.vue",
+    "chunkName": "pages/table-list/regular"
+  },
+  {
+    "name": "index___en",
+    "path": "/",
+    "component": "/Users/satohsoichiro/git/github.com/a171413/a171413.github.io/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
